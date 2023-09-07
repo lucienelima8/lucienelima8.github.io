@@ -322,7 +322,7 @@ h3 {
     font-size: 1rem;
 }
 
-.saiba_mais {
+.acesse {
     font-family: var(--font_primary);
     /*font-family: var(--font_primary);*/
     margin-left: 1rem;
@@ -335,7 +335,7 @@ h3 {
    
 }
 
-.saiba_mais:hover {
+.acesse:hover {
     transform: scale(1.1);
     color: color-mix(in srgb, red, white);
     border-bottom: none;
@@ -361,22 +361,22 @@ h3 {
     
 }
 
- /*Formulário*/
 .form {
     /*display: flex;*/
     /*justify-content: center;
     align-items: center;
     /*text-align: left;*/
-    border-right: 1px solid rgba(69, 13, 224, 0.774); /*Colocou borda na lateral dir*/
+    /*border-right: 1px solid rgba(69, 13, 224, 0.774); /*Borda na lateral dir*/
+    border-bottom: 1px solid rgba(69, 13, 224, 0.774);
     border-radius: 15px; 
     box-shadow: inset 8px 3px 3px rgba(27, 13, 224, 0.774);
     /*box-shadow: 3px 3px 3px 3px rgba(27, 13, 224, 0.774); /* pra dar uma pequena sombra ao redor*/
     /*border: none;/*pra tirar a borda do form*/
     /*largura da borda*/
     /*width: 40%;*/
-    /*background-color: rgba(229, 255, 0, 0.164);*/
     max-width: auto;
-    background-color: #ccccccce;
+    background-color: rgba(0, 0, 0, 0);
+    /*background-color: #ccccccce;*/
     margin-top: 0;
     margin-bottom: 9rem;
 
@@ -409,7 +409,8 @@ h3 {
     margin-top: 1rem;
     margin-bottom: 1rem;
     align-items: center;
-    padding-top: 16px;
+    padding-top: 1rem;
+    text-align: center;
 
         
 }
@@ -421,9 +422,9 @@ h3 {
     font-size: 1.em;
     font-family: var(--font_primary);
     color: blue;
-    margin-bottom: .25em;
-       
-
+    margin-bottom: .2em;
+    margin-left: .1rem;
+     
 }
 
 
@@ -432,13 +433,14 @@ h3 {
     padding: .7em;
     border: 5px;
     border-radius: 5px;
-    margin-top: 4px;
-    margin-bottom: 1.em;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     border: 1px solid #ccc;
     font-size: 1.em;
     width: 70%;
     flex-grow: 1;
     outline: none;
+    
 
        
 
@@ -454,10 +456,11 @@ h3 {
 .form textarea {
     resize: none; /*para o usuário nao aumentar a caixa de msgm*/
     border-radius: 5px;
-    margin-bottom: .1rem;
+    margin-top: 1rem;
     border: 1px solid #ccc;
     outline: none;
     flex-wrap: wrap; /*quebra a linha*/
+
 
 
 }
@@ -619,7 +622,7 @@ footer {
     }
 
   
-    .saiba_mais {
+    .acesse {
         font-family: var(--font_primary);
         margin-left: 1rem;
         margin-top: 1rem;
@@ -630,7 +633,7 @@ footer {
        
     }
 
-    .saiba_mais:hover {
+    .acesse:hover {
         transform: none;
         color: blue;
         border-bottom: none;
@@ -658,6 +661,21 @@ footer {
   
     }
 
+    .form {
+        
+        border-bottom: 1px solid rgba(69, 13, 224, 0.774);
+        border-radius: 15px; 
+        box-shadow: inset 8px 3px 3px rgba(27, 13, 224, 0.774);
+        max-width: auto;
+        background-color: rgba(0, 0, 0, 0);
+        margin-top: 0;
+        /*margin-bottom: 9rem;*/
+        margin-bottom: 2rem;
+
+    
+         
+    }
+
     .form textarea {
         resize: none; /*para o usuário nao aumentar a caixa de msgm*/
         border-radius: 5px;
@@ -666,7 +684,7 @@ footer {
         outline: none;
         flex-wrap: wrap; /*quebra a linha*/
         width: 80%;
-    
+   
     
     }
       
