@@ -203,6 +203,14 @@ p{
     
 }
 
+.meus_contatos {
+    color: blue;
+    font-weight: bold;
+    font-size: 1.1rem;
+
+
+}
+
 /*Configurando os ícones do  linkedin e github, seção autora*/
 .fa-brands {
     font-size: 2.5rem;
@@ -336,6 +344,10 @@ h3 {
 
 
 /*FORMULÁRIO*/
+.parágrafo_form {
+    text-align: center;
+    margin-bottom: 1rem;
+}
 
 .section_form {
     align-items: center;
@@ -349,12 +361,6 @@ h3 {
     
 }
 
-.parágrafo_form {
-    text-align: center;
-    margin-bottom: 1rem;
-}
-
- 
  /*Formulário*/
 .form {
     /*display: flex;*/
@@ -471,7 +477,7 @@ h3 {
     cursor: pointer;
     margin: auto;
     /*margin: 1px 1px 1px 1px;*/
-    max-width: 23%;
+    max-width: 25%;
     margin-bottom: .1rem;  
     letter-spacing: 1px; 
     
@@ -555,6 +561,12 @@ footer {
             
     }
 
+    .meus_contatos {
+        color: blue;
+        font-weight: bold;
+
+    }
+
     .section_projetos {
        flex-direction: column;
        flex-wrap: wrap;
@@ -577,7 +589,6 @@ footer {
 
     /*Imagem ODS*/
     .imagem_projetos {
-    /*border-radius: 5px solid;*/
       justify-content: center;
       margin-left: 1rem;
       border-radius: 20px;
@@ -592,10 +603,7 @@ footer {
     .fa-brands {
         font-size: 2.5rem;
         color: blue;
-        /*color:rgba(0, 128, 0, 0.664);*/
-        /*gap: 5rem;*/
-        /*letter-spacing: 50%;*/
-    
+           
     
     }
     
@@ -613,7 +621,6 @@ footer {
   
     .saiba_mais {
         font-family: var(--font_primary);
-        /*font-family: var(--font_primary);*/
         margin-left: 1rem;
         margin-top: 1rem;
         padding-bottom: 1rem;
@@ -629,17 +636,40 @@ footer {
         border-bottom: none;
     
     }
-           
-    .section_form {
-       margin: auto;
-    }
-
+     /*Formulário*/
     .parágrafo_form {
         text-align: center;
         margin-top: 2rem;
         margin-bottom: 2rem;
+        font-size: 1.1rem;
+        
+    }
+           
+    .section_form {
+       margin: auto;
+       align-items: center;
+       justify-content: center;
+       display: flex;
+       margin-top: 3rem;
+       margin-bottom: 3rem;
+       /*max-width: auto;*/
+       max-width: auto;
+       width: 90%;
+  
     }
 
+    .form textarea {
+        resize: none; /*para o usuário nao aumentar a caixa de msgm*/
+        border-radius: 5px;
+        margin-bottom: .1rem;
+        border: 1px solid #ccc;
+        outline: none;
+        flex-wrap: wrap; /*quebra a linha*/
+        width: 80%;
+    
+    
+    }
+      
     footer {
         text-align: center;
         padding: 1.1em;
