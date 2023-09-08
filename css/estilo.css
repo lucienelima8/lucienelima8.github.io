@@ -32,7 +32,7 @@ body {
   
 }
 
- /*Menu nas outras pages sem ser a home*/
+ /*Menu nas outras pages*/
 .gradiente2 {
     padding-left: 1px;
     padding-top: 1px;
@@ -411,6 +411,8 @@ h3 {
     align-items: center;
     padding-top: 1rem;
     text-align: center;
+    letter-spacing: .2rem;
+
 
         
 }
@@ -424,6 +426,8 @@ h3 {
     color: blue;
     margin-bottom: .2em;
     margin-left: .1rem;
+    letter-spacing: .2rem;
+    
      
 }
 
@@ -494,11 +498,31 @@ h3 {
 
 }
 
+/*Botão subir*/
+#up {
+	position:fixed;
+	bottom:0px;
+	right:0px;
+
+}
+
+.button_seta {
+    background-color: #ccc;
+    border-radius: 20%;
+    margin-bottom: 1rem;
+    margin-right: .1rem;
+}
+
+.button_seta:hover {
+    background-color: color-mix(in srgb, red, white);
+}
+
 footer {
     text-align: center;
     padding: 1.1em;
     color: beige;
 }
+
 
 
 
@@ -595,12 +619,12 @@ footer {
       justify-content: center;
       margin-left: 1rem;
       border-radius: 20px;
-      box-shadow: 3px 3px 3px 3px rgba(27, 13, 224, 0.774); /* pra dar uma pequena sombra ao redor*/
+      box-shadow: 3px 3px 3px 3px rgba(27, 13, 224, 0.774); 
 
     }
 
     .imagem_projetos:hover {
-      transform: none; /*zoom na foto ao passar o mouse*/
+      transform: none; 
     }
 
     .fa-brands {
@@ -677,15 +701,34 @@ footer {
     }
 
     .form textarea {
-        resize: none; /*para o usuário nao aumentar a caixa de msgm*/
+        resize: none; 
         border-radius: 5px;
         margin-bottom: .1rem;
         border: 1px solid #ccc;
         outline: none;
-        flex-wrap: wrap; /*quebra a linha*/
+        flex-wrap: wrap; 
         width: 80%;
    
     
+    }
+
+    /*Botão subir*/
+    #up {
+        position:fixed;
+        bottom:0px;
+        right:0px;
+    
+    }
+    
+    .button_seta {
+        background-color: #ccc;
+        border-radius: 20%;
+        margin-bottom: 1rem;
+        margin-right: .1rem;
+    }
+    
+    .button_seta:hover {
+        background-color: #ccc;
     }
       
     footer {
