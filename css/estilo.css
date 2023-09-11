@@ -1,5 +1,9 @@
 :root {
     --font_primary: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    --color_primary: rgb(0, 183, 255);
+    /*--color-menu-hover: color-mix(in srgb, rgb(0, 225, 255), white);*/
+    /*--color-menu-hover: rgba(255, 255, 255, 0.822);*/
+    --color-menu-hover: #f0f1ea48;
     
 
 }
@@ -65,7 +69,8 @@ ul, li, a {
     /*text-align: center;*/
     /*text-align: left*/
     gap: .6rem; /*espaço entre linhas */
-    color: blue;
+    color: var(--color_primary);
+    /*color: blue;*/
     font-weight: bold;
     letter-spacing: 1px;
     padding-bottom: 1px;
@@ -75,7 +80,8 @@ ul, li, a {
 
 .menu a {
     /*border: solid 2px #cccccc6b;*/
-    border: solid 2px rgba(0, 0, 255, 0.466);
+    border: solid 2px var(--color_primary);
+    /*border: solid 2px rgba(0, 0, 255, 0.466);*/
     padding: .15em .5em;
     border-radius: 15px;
     /*border-radius: 35px;*/
@@ -84,7 +90,8 @@ ul, li, a {
 }
 
 .menu a:hover {
-    background-color: color-mix(in srgb, red, white);
+    background-color: var(--color-menu-hover);
+    /*background-color: color-mix(in srgb, red, white);*/
     /*background-color: color-mix(in srgb, red, white 70%);*/
     /*background-color: rgba(0, 0, 0, 0.795);*/
 
@@ -115,7 +122,8 @@ h1 {
  /*Título de cada page (autora, currículo...)*/
 h2 {
     font-family: var(--font_primary);
-    color: blue;
+    color: var(--color_primary);
+    /*color: blue;*/
     text-align: auto;
     padding-top: 1px;
     padding-bottom: 1px;
@@ -180,8 +188,9 @@ p{
 
 .imagem_autora:hover {
     transform: scale(1.1); 
-    /*border-radius: 20px solid blue;*/
-    box-shadow: 2px 2px 2px 2px rgba(27, 13, 224, 0.774);
+    /*border-radius: 20px solid blue;*/;
+    box-shadow: 2px 2px 2px 2px var(--color_primary)
+    /*box-shadow: 2px 2px 2px 2px rgba(27, 13, 224, 0.774);*/
 }
 
 .autora_parágrafo {
@@ -204,7 +213,8 @@ p{
 }
 
 .meus_contatos {
-    color: blue;
+    color: var(--color_primary);
+    /*color: blue;*/
     font-weight: bold;
     font-size: 1.1rem;
 
@@ -223,7 +233,8 @@ p{
 }
 
 .fa-brands:hover {
-    color: blue;
+    color: var(--color_primary);
+    /*color: blue;*/
 
 }
 
@@ -234,8 +245,10 @@ p{
     margin-bottom: 0;
     font-size: 2.5rem;
     padding-top: 0;
-    color: rgba(0, 0, 255, 0.425);
-    transition: rgba(0, 0, 255, 0.425) 5s linear 1.5s;
+    color: rgb(142, 230, 230);
+    /*color: rgba(0, 0, 255, 0.425);*/
+    transition: var(--color_primary);    
+    /*transition: rgba(0, 0, 255, 0.425) 5s linear 1.5s;*/
  
 
 } 
@@ -303,7 +316,8 @@ h3 {
     justify-content: center;
     /*margin-left: 1rem;*/
     border-radius: 20px;
-    box-shadow: 3px 3px 3px 3px rgba(27, 13, 224, 0.774); /* pra dar uma pequena sombra ao redor*/
+    box-shadow: 3px 3px 3px 3px var(--color_primary);
+    /*box-shadow: 3px 3px 3px 3px rgba(27, 13, 224, 0.774); /* pra dar uma pequena sombra ao redor*/
 
 }
 
@@ -329,9 +343,9 @@ h3 {
     margin-top: 1rem;
     margin-bottom: 2rem;
     padding-bottom: 1rem;
+    color: var(--color_primary);
     /*color: blue;*/
-    color: blue;
-    border-bottom: 1px solid blue;
+    border-bottom: 1px solid var(--color_primary);
    
 }
 
@@ -367,13 +381,12 @@ h3 {
     align-items: center;
     /*text-align: left;*/
     /*border-right: 1px solid rgba(69, 13, 224, 0.774); /*Borda na lateral dir*/
-    border-bottom: 1px solid rgba(69, 13, 224, 0.774);
-    border-radius: 15px; 
-    box-shadow: inset 8px 3px 3px rgba(27, 13, 224, 0.774);
+    border-bottom: 1px solid var(--color_primary);
+    /*border-bottom: 1px solid rgba(69, 13, 224, 0.774);*/
+    border-radius: 15px;
+    box-shadow: inset 8px 3px 3px var(--color_primary);
+    /*box-shadow: inset 8px 3px 3px rgba(27, 13, 224, 0.774);8/
     /*box-shadow: 3px 3px 3px 3px rgba(27, 13, 224, 0.774); /* pra dar uma pequena sombra ao redor*/
-    /*border: none;/*pra tirar a borda do form*/
-    /*largura da borda*/
-    /*width: 40%;*/
     max-width: auto;
     background-color: rgba(0, 0, 0, 0);
     /*background-color: #ccccccce;*/
@@ -401,7 +414,7 @@ h3 {
     font-size: 1.2rem;
     font-family: var(--font_primary);
     /*font-family:'Times New Roman', Times, serif;*/
-    color: blue;
+    color: var(--color_primary);
     /*margin-bottom: .8rem;*/
     /*text-align: center;*/
     /*align-items: center;*/
@@ -423,7 +436,7 @@ h3 {
     font-weight: bold;
     font-size: 1.em;
     font-family: var(--font_primary);
-    color: blue;
+    color: var(--color_primary);
     margin-bottom: .2em;
     margin-left: .1rem;
     letter-spacing: .2rem;
@@ -444,15 +457,14 @@ h3 {
     width: 70%;
     flex-grow: 1;
     outline: none;
-    
-
-       
+         
 
 }
 
  /*Animação no contorno de cada input quando usuário clicar*/
 .form input:focus {
-    outline: 2px solid rgb(0, 68, 255); /*form input:focus = quando clicar no campo ficar amarelo*/
+    outline: 2px solid var(--color_primary);
+    /*outline: 2px solid rgb(0, 68, 255); /*form input:focus = quando clicar no campo ficar amarelo*/
 
 }
 
@@ -471,7 +483,8 @@ h3 {
 
  /*Animação no contorno da caixa de texto quando usuário clicar*/
 .form textarea:focus {
-    outline: 2px solid rgb(0, 68, 255);
+    outline: 2px solid var(--color_primary);
+    /*outline: 2px solid rgb(0, 68, 255);*/
 
 
 }
@@ -492,7 +505,8 @@ h3 {
 
  /*Botão enviar do form*/
 .btn2:hover { /*hover= mudar de cor ao passar com o mouse*/
-    background-color: rgba(27, 13, 224, 0.774);
+    background-color: var(--color_primary);
+    /*background-color: rgba(27, 13, 224, 0.774);*/
     /*background-color: rgba(0, 68, 255);*/
     color:black;
 
@@ -538,9 +552,43 @@ footer {
         
     }
 
+    ul, li, a {
+        cursor: pointer;
+        /*display: flexbox;*/
+        display: inline-block; /*se usasse o li no lugar do ul: display:inline-block*/
+        text-decoration: none; /*tirar sublinhado*/
+        list-style-type: none; /*pra tirar o budgets*/
+        /*text-align: center;*/
+        /*text-align: left*/
+        gap: .6rem; /*espaço entre linhas */
+        color: var(--color_primary);
+        /*color: rgb(0, 183, 255);*/
+        font-weight: bold;
+        letter-spacing: 1px;
+        padding-bottom: 1px;
+         
+    
+    }
+
+    .menu a {
+        /*border: solid 2px #cccccc6b;*/
+        border: solid 2px var(--color_primary);
+        /*border: solid 2px rgba(0, 0, 255, 0.466);*/
+        padding: .15em .5em;
+        border-radius: 15px;
+        /*border-radius: 35px;*/
+        margin-top: 0.2rem;
+    
+    }
+
+    .menu a:hover {
+        background-color: none;
+           
+    }
+
     h2 {
         font-family: var(--font_primary);
-        color: blue;
+        color: var(--color_primary);
         text-align: center;
         padding-top: 1.1rem;
         padding-bottom: 1rem;
@@ -557,7 +605,8 @@ footer {
     .imagem_autora {
         width: 150px;
         height: 150px;
-        border: 2px solid rgba(27, 13, 224, 0.774);
+        border: 2px solid var(--color_primary);
+        /*border: 2px solid rgba(27, 13, 224, 0.774);*/
         border-radius: 250px;
         text-align: center;
         /*margin: auto;*/
@@ -589,7 +638,7 @@ footer {
     }
 
     .meus_contatos {
-        color: blue;
+        color: var(--color_primary);
         font-weight: bold;
 
     }
@@ -619,7 +668,8 @@ footer {
       justify-content: center;
       margin-left: 1rem;
       border-radius: 20px;
-      box-shadow: 3px 3px 3px 3px rgba(27, 13, 224, 0.774); 
+      box-shadow: 3px 3px 3px 3px var(--color_primary);
+      /*box-shadow: 3px 3px 3px 3px rgba(27, 13, 224, 0.774); */
 
     }
 
@@ -629,7 +679,7 @@ footer {
 
     .fa-brands {
         font-size: 2.5rem;
-        color: blue;
+        color: var(--color_primary);
            
     
     }
@@ -652,14 +702,14 @@ footer {
         margin-top: 1rem;
         padding-bottom: 1rem;
         /*color: blue;*/
-        color: blue;
+        color: var(--color_primary);
         border-bottom: none;
        
     }
 
     .acesse:hover {
         transform: none;
-        color: blue;
+        color: var(--color_primary);
         border-bottom: none;
     
     }
@@ -687,17 +737,16 @@ footer {
 
     .form {
         
-        border-bottom: 1px solid rgba(69, 13, 224, 0.774);
+        border-bottom: 1px solid var(--color_primary);
         border-radius: 15px; 
-        box-shadow: inset 8px 3px 3px rgba(27, 13, 224, 0.774);
+        box-shadow: inset 8px 3px 3px var(--color_primary);
         max-width: auto;
         background-color: rgba(0, 0, 0, 0);
         margin-top: 0;
         /*margin-bottom: 9rem;*/
         margin-bottom: 2rem;
 
-    
-         
+            
     }
 
     .form textarea {
