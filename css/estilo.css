@@ -695,6 +695,10 @@ footer {
     
     }
 
+    .projeto_descriao {
+        font-size: 1rem;
+        padding-top: .6rem;
+    }
   
     .acesse {
         font-family: var(--font_primary);
