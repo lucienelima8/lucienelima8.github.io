@@ -533,8 +533,13 @@ h3 {
 
 footer {
     text-align: center;
-    padding: 1.1em;
+    padding: 1em;
+}
+
+footer p {
+    font-size: .8rem;
     color: beige;
+
 }
 
 
@@ -786,8 +791,13 @@ footer {
       
     footer {
         text-align: center;
-        padding: 1.1em;
+        padding: 1em;
+    }
+
+    footer p {
+        font-size: .8rem;
         color: beige;
+    
     }
 
  
