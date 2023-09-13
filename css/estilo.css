@@ -252,18 +252,6 @@ p{
 
 } 
 
-.autora_currículo {
-    margin-top: 1rem;
-    margin-bottom: 0;
-   
-}
-
-.autora_currículo2 {
-    margin-top: 0;
-    margin-bottom: 1rem;
-  
-}
-
 
 /*MEUS PROJETOS*/
 
@@ -341,11 +329,12 @@ h3 {
     /*font-family: var(--font_primary);*/
     margin-left: 1rem;
     margin-top: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     padding-bottom: 1rem;
     color: var(--color_primary);
     /*color: blue;*/
     border-bottom: 1px solid var(--color_primary);
+    font-size: 1.1rem;
    
 }
 
@@ -353,6 +342,24 @@ h3 {
     transform: scale(1.1);
     color: color-mix(in srgb, red, white);
     border-bottom: none;
+
+}
+
+/*Acesso ao repositório no github*/
+.btn {
+    color: black;
+    background-color: rgb(170, 221, 241);
+    /*background-color: var(--color_primary);*/
+    /*background-color: #cccccc85;*/
+    font-size:  .6rem;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 0.40em 1em;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: .5rem;
+    /*opacity: .5;*/
+    align-items: center;
 
 }
 
@@ -588,6 +595,7 @@ footer p {
            
     }
 
+     /*Título de cada page (autora, currículo...)*/
     h2 {
         font-family: var(--font_primary);
         color: var(--color_primary);
@@ -598,6 +606,7 @@ footer p {
         margin-left: 1rem;
     }
 
+    /*AUTORA*/
     .div_autora {
         flex-direction: column;
         gap: 0;
@@ -645,6 +654,8 @@ footer p {
 
     }
 
+    /*MEUS PROJETOS*/
+    /*bloco com todas as articles*/
     .section_projetos {
        flex-direction: column;
        flex-wrap: wrap;
@@ -665,7 +676,7 @@ footer p {
     
     }
 
-    /*Imagem ODS*/
+    /*Imagem dos projetos*/
     .imagem_projetos {
       justify-content: center;
       margin-left: 1rem;
@@ -679,10 +690,10 @@ footer p {
       transform: none; 
     }
 
+    /*Configurando os ícones do  linkedin e github, seção autora*/
     .fa-brands {
         font-size: 2.5rem;
-        color: var(--color_primary);
-           
+        color: var(--color_primary);         
     
     }
     
@@ -697,19 +708,23 @@ footer p {
     
     }
 
+    /*MEUS PROJETOS*/
     .projeto_descriao {
         font-size: 1rem;
         padding-top: .6rem;
     }
   
+    /*Link para minhas pages github*/
     .acesse {
         font-family: var(--font_primary);
         margin-left: 1rem;
         margin-top: 1rem;
+        margin-bottom: .1rem;
         padding-bottom: 1rem;
         /*color: blue;*/
         color: var(--color_primary);
         border-bottom: none;
+        font-size: 1.1rem;
        
     }
 
@@ -719,7 +734,24 @@ footer p {
         border-bottom: none;
     
     }
-     /*Formulário*/
+
+    /*Acesso ao repositório no github*/
+    .btn {
+        color: black;
+        background-color: rgb(170, 221, 241);
+        /*background-color: #cccccc85;*/
+        font-size:  .6rem;
+        border-radius: 20px;
+        text-decoration: none;
+        padding: 0.40em 1em;
+        text-align: center;
+        margin-bottom: 1rem;
+        margin-top: .1rem;
+        /*opacity: .5;*/
+        align-items: center;
+    }
+
+     /*FORMULÁRIO*/
     .parágrafo_form {
         text-align: center;
         margin-top: 2rem;
