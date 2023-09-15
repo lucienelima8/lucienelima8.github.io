@@ -255,28 +255,32 @@ p{
 
 /*MEUS PROJETOS*/
 
- /*bloco com todas as articles*/
+ /*bloco com todas as divs e articles*/
 .section_projetos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    /*justify-content: space-evenly;*/
     gap: 12px; 
     margin: 1rem 1rem;
     text-align: center;
     height: auto;
-
     
 
 }
 
+/*div de cada projeto*/
 .container {
-    /*display: flex;*/
-    /*flex-wrap: wrap;*/
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
 
 }
 
- /*cada projeto*/
+ /*foto e parágrafos*/
 .article_projetos { 
+   
     /*margin-left: 1rem;*/
     /*border: 2px solid blue;*/
     border-radius: 5px;
@@ -293,12 +297,15 @@ h3 {
     color: white;
     font-size: 1.2rem;
     margin-left: 2rem;
+    margin-top: 2rem;
 
 }
 
 
 /*Imagem de cada projeto*/
 .imagem_projetos {
+    width: 500px;
+    height: 250px;
     /*border-radius: 5px solid;*/
     justify-content: center;
     /*margin-left: 1rem;*/
@@ -312,15 +319,10 @@ h3 {
     transform: scale(1.1); /*zoom na foto ao passar o mouse*/
 }
 
- /*parágrafo dentro do article de cada projeto*/
-.article_projetos p {
-    margin-left: 1rem;
-    margin-top: 1rem;
-
-}
-
 .projeto_descriao {
     font-size: 1rem;
+    margin-top: 1.2rem;
+    margin-left: 1rem;
 }
 
 /*Link para minhas pages github*/
@@ -356,7 +358,7 @@ h3 {
     text-decoration: none;
     padding: 0.40em 1em;
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     margin-top: .5rem;
     /*opacity: .5;*/
     align-items: center;
@@ -654,8 +656,20 @@ footer p {
 
     }
 
+       /*Configurando os ícones do  linkedin e github, seção autora*/
+    .fa-brands {
+        font-size: 2.5rem;
+        color: var(--color_primary);         
+    
+    }
+    
+    .fa-brands:hover {
+        color: none;
+    
+    }
+
     /*MEUS PROJETOS*/
-    /*bloco com todas as articles*/
+    /*bloco com todas as divis e articles*/
     .section_projetos {
        flex-direction: column;
        flex-wrap: wrap;
@@ -666,6 +680,7 @@ footer p {
 
     }
 
+     /*foto e parágrafos*/
     .article_projetos { 
         /*margin-left: 1rem;*/
         /*border: 2px solid blue;*/
@@ -678,6 +693,8 @@ footer p {
 
     /*Imagem dos projetos*/
     .imagem_projetos {
+      width: 300px;
+      height: 200px;  
       justify-content: center;
       margin-left: 1rem;
       border-radius: 20px;
@@ -690,28 +707,12 @@ footer p {
       transform: none; 
     }
 
-    /*Configurando os ícones do  linkedin e github, seção autora*/
-    .fa-brands {
-        font-size: 2.5rem;
-        color: var(--color_primary);         
     
-    }
-    
-    .fa-brands:hover {
-        color: none;
-    
-    }
-     
-
-    .article_projetos p {
-       margin: auto;
-    
-    }
-
-    /*MEUS PROJETOS*/
     .projeto_descriao {
         font-size: 1rem;
         padding-top: .6rem;
+        margin-top: .1rem;
+
     }
   
     /*Link para minhas pages github*/
@@ -745,7 +746,7 @@ footer p {
         text-decoration: none;
         padding: 0.40em 1em;
         text-align: center;
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
         margin-top: .1rem;
         /*opacity: .5;*/
         align-items: center;
