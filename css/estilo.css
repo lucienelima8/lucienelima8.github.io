@@ -347,7 +347,7 @@ h3:hover {
     transform: scale(1.1); /*zoom na foto ao passar o mouse*/
 }
 
-.projeto_descriao {
+.projeto_descricao {
     font-size: 1rem;
     margin-top: 1.2rem;
     margin-left: 1rem;
@@ -649,8 +649,8 @@ footer p {
     }
 
     .imagem_autora {
-        width: 200px;
-        height: 200px;
+        width: 250px;
+        height: 250px;
         border: 2px solid var(--color_primary);
         /*border: 2px solid rgba(27, 13, 224, 0.774);*/
         border-radius: 250px;
@@ -758,7 +758,7 @@ footer p {
       border-radius: 20px;
       box-shadow: 3px 3px 3px 3px var(--color_primary);
       /*box-shadow: 3px 3px 3px 3px rgba(27, 13, 224, 0.774); */
-      margin-bottom: 1rem;
+      /*margin-bottom: 1rem;*/
       
 
     }
@@ -768,10 +768,10 @@ footer p {
     }
 
     
-    .projeto_descriao {
+    .projeto_descricao {
         font-size: 1rem;
         padding-top: .6rem;
-        margin-top: .1rem;
+        margin-top: 1rem;
 
     }
   
