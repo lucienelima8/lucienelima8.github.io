@@ -759,6 +759,9 @@ footer p {
       box-shadow: 3px 3px 3px 3px var(--color_primary);
       /*box-shadow: 3px 3px 3px 3px rgba(27, 13, 224, 0.774); */
       /*margin-bottom: 1rem;*/
+      float: none;
+      margin-bottom: .1rem;
+
       
 
     }
