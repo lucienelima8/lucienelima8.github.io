@@ -772,6 +772,7 @@ footer p {
         font-size: 1rem;
         padding-top: .6rem;
         margin-top: 1rem;
+        flex-wrap: wrap;
 
     }
   
