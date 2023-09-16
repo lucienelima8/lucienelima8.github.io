@@ -3,7 +3,7 @@
     --color_primary: rgb(0, 183, 255);
     /*--color-menu-hover: color-mix(in srgb, rgb(0, 225, 255), white);*/
     /*--color-menu-hover: rgba(255, 255, 255, 0.822);*/
-    --color-menu-hover: #f0f1ea48;
+    --color_menu_hover: hsl(0, 27%, 96%);
     
 
 }
@@ -90,7 +90,8 @@ ul, li, a {
 }
 
 .menu a:hover {
-    background-color: var(--color-menu-hover);
+    background-color: var(--color_menu_hover);
+    /*background-color: var(--color-menu-hover);*/
     /*background-color: color-mix(in srgb, red, white);*/
     /*background-color: color-mix(in srgb, red, white 70%);*/
     /*background-color: rgba(0, 0, 0, 0.795);*/
@@ -170,8 +171,8 @@ p{
 }
 
 .imagem_autora {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     /*border-radius: 250px;*/
     border-radius: 50%;
     border: 1px solid black;
@@ -182,8 +183,6 @@ p{
     margin-left: 2rem;
     margin-bottom: 2rem;
 
-
-
 }
 
 .imagem_autora:hover {
@@ -193,8 +192,27 @@ p{
     /*box-shadow: 2px 2px 2px 2px rgba(27, 13, 224, 0.774);*/
 }
 
+.imagem_monografia {
+    width: 250px;
+    height: 150px;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px var(--color_primary);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.imagem_monografia:hover {
+    transform: scale(1.1); 
+    /*border-radius: 20px solid blue;*/;
+    box-shadow: 2px 2px 2px 2px var(--color_primary)
+    /*box-shadow: 2px 2px 2px 2px rgba(27, 13, 224, 0.774);*/
+}
+
 .autora_parágrafo {
     margin-left: 1rem;
+    font-size: 1.5rem;
 }
 
 
@@ -294,11 +312,18 @@ p{
 
  /*Nome de cada trabalho da page projeto*/
 h3 {
-    color: white;
-    font-size: 1.2rem;
-    margin-left: 2rem;
-    margin-top: 2rem;
+    color: var(--color_primary);
+    font-size: 1.4rem;
+    /*margin-left: 2rem;*/
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    text-align: center;
 
+}
+
+h3:hover {
+    transform: scale(1.1);
+    color: color-mix(in srgb, red, white);
 }
 
 
@@ -312,6 +337,9 @@ h3 {
     border-radius: 20px;
     box-shadow: 3px 3px 3px 3px var(--color_primary);
     /*box-shadow: 3px 3px 3px 3px rgba(27, 13, 224, 0.774); /* pra dar uma pequena sombra ao redor*/
+    float: left;
+    margin-left: 6rem;
+    margin-bottom: 2rem;
 
 }
 
@@ -363,6 +391,11 @@ h3 {
     /*opacity: .5;*/
     align-items: center;
 
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    background-color: color-mix(in srgb, red, white);
 }
 
 
@@ -616,8 +649,8 @@ footer p {
     }
 
     .imagem_autora {
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 200px;
         border: 2px solid var(--color_primary);
         /*border: 2px solid rgba(27, 13, 224, 0.774);*/
         border-radius: 250px;
@@ -634,25 +667,34 @@ footer p {
     
     }
 
+    .imagem_monografia:hover {
+        transform: none; 
+        /*border-radius: 20px solid blue;*/;
+        box-shadow: 2px 2px 2px 2px var(--color_primary)
+        /*box-shadow: 2px 2px 2px 2px rgba(27, 13, 224, 0.774);*/
+    }
+
     .autora_parágrafo {
         margin-left: .1rem;
         text-align: center;
+        font-size: 1.5rem;
         
     }
-    
-    
+
+        
     .autora_parágrafo2 {
         font-size: .99rem;
         color: white;
         text-align: center;
         margin: .1rem .1rem;
-        padding-top: 1rem;
+        padding-top: .1rem;
             
     }
 
     .meus_contatos {
         color: var(--color_primary);
         font-weight: bold;
+        margin-top: 1rem;
 
     }
 
@@ -691,15 +733,33 @@ footer p {
     
     }
 
+     /*Nome de cada trabalho da page projeto*/
+    h3 {
+        color: var(--color_primary);
+        font-size: 1.3rem;
+        /*margin-left: 2rem;*/
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    
+    }
+
+    h3:hover {
+        transform: none;
+        color: var(--color_primary);
+    }
+
     /*Imagem dos projetos*/
     .imagem_projetos {
       width: 300px;
       height: 200px;  
       justify-content: center;
-      margin-left: 1rem;
+      margin-left: 2rem;
       border-radius: 20px;
       box-shadow: 3px 3px 3px 3px var(--color_primary);
       /*box-shadow: 3px 3px 3px 3px rgba(27, 13, 224, 0.774); */
+      margin-bottom: 1rem;
+      
 
     }
 
@@ -750,6 +810,11 @@ footer p {
         margin-top: .1rem;
         /*opacity: .5;*/
         align-items: center;
+    }
+
+    .btn:hover {
+        transform: none;
+        background-color: rgb(170, 221, 241);
     }
 
      /*FORMULÁRIO*/
