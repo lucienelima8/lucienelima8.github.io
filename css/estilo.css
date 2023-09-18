@@ -584,8 +584,119 @@ footer p {
 }
 
 
-/*RESPONSIVIDADE*/
 
+/*RESPONSIVIDADE TABLET*/
+@media screen and (max-width: 820px) {
+   
+    /*AUTORA*/
+    .div_autora {
+        flex-direction: column;
+        gap: 0;
+    
+    }
+
+    .imagem_autora {
+        width: 300px;
+        height: 300px;
+        border: 2px solid var(--color_primary);
+        /*border: 2px solid rgba(27, 13, 224, 0.774);*/
+        border-radius: 250px;
+        text-align: center;
+        /*margin: auto;*/
+        margin-bottom: auto;
+
+
+    }
+
+    .imagem_autora:hover {
+        transform: none; 
+        box-shadow: none;
+
+
+    }
+
+    .imagem_monografia:hover {
+        transform: none; 
+        /*border-radius: 20px solid blue;*/;
+        box-shadow: 2px 2px 2px 2px var(--color_primary)
+        /*box-shadow: 2px 2px 2px 2px rgba(27, 13, 224, 0.774);*/
+    }
+
+   .autora_parágrafo {
+        margin-left: .1rem;
+        text-align: center;
+        font-size: 1.5rem;
+    
+    }
+
+    
+    .autora_parágrafo2 {
+        font-size: .99rem;
+        color: white;
+        text-align: center;
+        margin: .1rem .1rem;
+        padding-top: .1rem;
+        
+    }
+
+    .meus_contatos {
+        color: var(--color_primary);
+        font-weight: bold;
+        margin-top: 3rem;
+        
+    }
+
+   /*Configurando os ícones do  linkedin e github, seção autora*/
+   .fa-brands {
+        font-size: 2.5rem;
+        color: var(--color_primary);  
+
+    }
+
+    .fa-brands:hover {
+        color: none;
+
+    }
+
+     /*PROJETOS*/
+    /*Imagem dos projetos*/
+    .imagem_projetos {
+        width: 450px;
+        height: 250px;  
+        /*justify-content: center;*/
+        margin: auto;
+        /*margin-left: auto;*/
+        /*margin-left: 1rem;*/
+        margin-bottom: .1rem;
+        border-radius: 20px;
+        box-shadow: 3px 3px 3px 3px var(--color_primary);
+        /*box-shadow: 3px 3px 3px 3px rgba(27, 13, 224, 0.774); */
+        /*margin-bottom: 1rem;*/
+        float: none;
+  
+          
+    }
+  
+    .imagem_projetos:hover {
+        transform: none; 
+    }
+
+    footer {
+        text-align: center;
+        padding: 2em;
+    }
+
+    footer p {
+        font-size: .8rem;
+        color: beige;
+    
+    }
+
+}
+
+
+
+/*RESPONSIVIDADE CELULAR*/
 @media screen and (max-width: 800px) {
     
     .body {
@@ -900,6 +1011,5 @@ footer p {
         color: beige;
     
     }
-
- 
 }
+ 
