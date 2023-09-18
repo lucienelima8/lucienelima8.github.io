@@ -659,6 +659,23 @@ footer p {
     }
 
      /*PROJETOS*/
+    /*Nome de cada trabalho da page projeto*/
+    h3 {
+        color: var(--color_primary);
+        font-size: 1.3rem;
+        /*margin-left: 2rem;*/
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    
+    }
+
+    h3:hover {
+        transform: none;
+        color: var(--color_primary);
+    }
+
+
     /*Imagem dos projetos*/
     .imagem_projetos {
         width: 450px;
@@ -679,6 +696,48 @@ footer p {
   
     .imagem_projetos:hover {
         transform: none; 
+    }
+
+     /*Link para minhas pages github*/
+     .acesse {
+        font-family: var(--font_primary);
+        margin-left: 1rem;
+        margin-top: 1rem;
+        margin-bottom: .1rem;
+        padding-bottom: 1rem;
+        /*color: blue;*/
+        color: var(--color_primary);
+        border-bottom: none;
+        font-size: 1.1rem;
+       
+    }
+
+    .acesse:hover {
+        transform: none;
+        color: var(--color_primary);
+        border-bottom: none;
+    
+    }
+
+    /*Acesso ao repositório no github*/
+    .btn {
+        color: black;
+        background-color: rgb(170, 221, 241);
+        /*background-color: #cccccc85;*/
+        font-size:  .6rem;
+        border-radius: 20px;
+        text-decoration: none;
+        padding: 0.40em 1em;
+        text-align: center;
+        margin-bottom: 2rem;
+        margin-top: .1rem;
+        /*opacity: .5;*/
+        align-items: center;
+    }
+
+    .btn:hover {
+        transform: none;
+        background-color: rgb(170, 221, 241);
     }
 
     footer {
