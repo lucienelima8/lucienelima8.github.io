@@ -562,7 +562,8 @@ h3:hover {
 }
 
 .button_seta {
-    background-color: #ccc;
+    background-color: #ccccccaf;  
+    /*background-color: #ccc;*/
     border-radius: 20%;
     margin-bottom: 1rem;
     margin-right: .1rem;
