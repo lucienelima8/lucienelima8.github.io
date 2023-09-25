@@ -110,7 +110,7 @@ ul, li, a {
 
  /*Título*/   
 h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: white;
     font-family: var(--font_primary);
     /*font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
@@ -210,12 +210,23 @@ p{
     /*box-shadow: 2px 2px 2px 2px rgba(27, 13, 224, 0.774);*/
 }
 
+/*Meu nome*/
 .autora_parágrafo {
     margin-left: 1rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    /*font-size: 1.5rem;*/
+    color: var(--color_primary);
+
 }
 
 
+/*Desenvolvedora Front-end*/
+.autora_formacao {
+    font-size: 1.5rem;
+    color: white;
+}
+
+/*Parágrafps sobre a autora*/
 .autora_parágrafo2 {
     /*text-align: center;*/
     letter-spacing: 1px;
