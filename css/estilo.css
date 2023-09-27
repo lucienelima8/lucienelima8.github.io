@@ -679,7 +679,7 @@ footer p {
 
     .btn_chamando_projetos:hover {
         transform: none;
-        background-color: rgb(170, 221, 241);
+        background-color: var(--color_primary);
     }
 
     .meus_contatos {
@@ -906,7 +906,7 @@ footer p {
 
     .btn_chamando_projetos:hover {
         transform: none;
-        background-color: rgb(170, 221, 241);
+        background-color: var(--color_primary);
     }
 
     .meus_contatos {
