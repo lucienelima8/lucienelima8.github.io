@@ -527,12 +527,12 @@ h3:hover {
  /*Entrada de dados*/
 .form input {
     padding: .7em;
-    border: 5px;
+    /*border: 5px;*/
     border-radius: 5px;
     margin-top: 1rem;
     margin-bottom: 1rem;
     border: 1px solid #ccc;
-    font-size: 1.em;
+    font-size: 1em;
     width: 70%;
     flex-grow: 1;
     outline: none;
