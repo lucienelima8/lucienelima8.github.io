@@ -141,7 +141,7 @@ p{
 
 }
  
-/*AUTORA*/
+     /*AUTORA*/
 
 /*bloco inteiro da parte autora*/
 .div_autora {
@@ -308,7 +308,7 @@ p{
 } 
 
 
-/*MEUS PROJETOS*/
+     /*MEUS PROJETOS*/
 
  /*bloco com todas as divs e articles*/
 .section_projetos {
@@ -436,7 +436,8 @@ h3:hover {
 }
 
 
-/*FORMULÁRIO*/
+     /*FORMULÁRIO*/
+
 .parágrafo_form {
     text-align: center;
     margin-bottom: 1rem;
@@ -590,7 +591,7 @@ h3:hover {
 
 }
 
-/*Botão/seta subir*/
+     /*BOTÃO/SETA PARA SUBIR A TELA*/
 #up {
 	position:fixed;
 	bottom:0px;
@@ -610,6 +611,7 @@ h3:hover {
     background-color: color-mix(in srgb, red, white);
 }
 
+     /*FOOTER*/
 footer {
     text-align: center;
     padding: 1em;
@@ -618,15 +620,19 @@ footer {
 footer p {
     font-size: .8rem;
     color: beige;
+    margin-top: 0;
+    line-height: 1px;
 
 }
 
 
 
-/*RESPONSIVIDADE TABLET*/
+     /*RESPONSIVIDADE TABLET*/
+
 @media screen and (max-width: 820px) {
    
-    /*AUTORA*/
+         /*AUTORA*/
+
     .div_autora {
         flex-direction: column;
         gap: 0;
@@ -701,7 +707,8 @@ footer p {
 
     }
 
-     /*PROJETOS*/
+          /*PROJETOS*/
+
     /*Nome de cada trabalho da page projeto*/
     h3 {
         color: var(--color_primary);
@@ -798,7 +805,8 @@ footer p {
 
 
 
-/*RESPONSIVIDADE CELULAR*/
+     /*RESPONSIVIDADE CELULAR*/
+
 @media screen and (max-width: 800px) {
     
     .body {
@@ -854,7 +862,8 @@ footer p {
         margin-left: 1rem;
     }
 
-    /*AUTORA*/
+         /*AUTORA*/
+
     .div_autora {
         flex-direction: column;
         gap: 0;
@@ -928,7 +937,8 @@ footer p {
     
     }
 
-    /*MEUS PROJETOS*/
+         /*MEUS PROJETOS*/
+
     /*bloco com todas as divis e articles*/
     .section_projetos {
        flex-direction: column;
@@ -1041,7 +1051,8 @@ footer p {
         background-color: rgb(170, 221, 241);
     }
 
-     /*FORMULÁRIO*/
+          /*FORMULÁRIO*/
+
     .parágrafo_form {
         text-align: center;
         margin-top: 2rem;
@@ -1089,8 +1100,8 @@ footer p {
     
     }
 
-    /*Botão subir*/
-    #up {
+           /*BOTÃO/SETA PARA SUBIR A TELA*/
+     #up {
         position:fixed;
         bottom:0px;
         right:0px;
