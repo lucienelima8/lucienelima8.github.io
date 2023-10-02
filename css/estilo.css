@@ -388,6 +388,9 @@ h3:hover {
 
 .imagem_projetos:hover {
     transform: scale(1.1); /*zoom na foto ao passar o mouse*/
+    transform: translate(60px); /*imagem se movimentando no eixo X*/
+
+
 }
 
 .projeto_descricao {
@@ -756,6 +759,8 @@ footer p {
   
     .imagem_projetos:hover {
         transform: none; 
+        transform: none;
+
     }
 
      /*Link para minhas pages github*/
@@ -1042,6 +1047,8 @@ footer p {
 
     .imagem_projetos:hover {
       transform: none; 
+      transform: none;
+
     }
 
     
