@@ -390,8 +390,23 @@ h3:hover {
 
 .projeto_descricao {
     font-size: 1rem;
-    margin-top: 1.2rem;
+    margin-top: 1rem;
     margin-left: 1rem;
+    margin-right: 1rem;
+    
+}
+
+/*Nome do curso*/
+.projeto_descricao_curso {
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    opacity: .6;
+    color: var(--color_primary);
+    /*color: aqua;*/
+
+
 }
 
 /*Link para minhas pages github*/
@@ -758,6 +773,7 @@ footer p {
 
     }
 
+    
      /*Link para minhas pages github*/
      .site {
         font-family: var(--font_primary);
