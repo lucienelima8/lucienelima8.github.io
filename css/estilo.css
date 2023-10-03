@@ -880,7 +880,7 @@ footer p {
     ul, li, a {
         cursor: pointer;
         /*display: flexbox;*/
-        display: inline-block; /*se usasse o li no lugar do ul: display:inline-block*/
+        display: inline-block; 
         text-decoration: none; /*tirar sublinhado*/
         list-style-type: none; /*pra tirar o budgets*/
         /*text-align: center;*/
@@ -903,6 +903,7 @@ footer p {
         border-radius: 15px;
         /*border-radius: 35px;*/
         margin-top: 0.2rem;
+
     
     }
 
