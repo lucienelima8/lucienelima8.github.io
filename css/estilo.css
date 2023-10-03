@@ -395,7 +395,7 @@ h3:hover {
 }
 
 /*Link para minhas pages github*/
-.acesse {
+.site {
     font-family: var(--font_primary);
     /*font-family: var(--font_primary);*/
     margin-left: 1rem;
@@ -409,7 +409,7 @@ h3:hover {
    
 }
 
-.acesse:hover {
+.site:hover {
     transform: scale(1.1);
     color: color-mix(in srgb, red, white);
     border-bottom: none;
@@ -759,7 +759,7 @@ footer p {
     }
 
      /*Link para minhas pages github*/
-     .acesse {
+     .site {
         font-family: var(--font_primary);
         margin-left: 1rem;
         margin-top: 1rem;
@@ -772,7 +772,7 @@ footer p {
        
     }
 
-    .acesse:hover {
+    .site:hover {
         transform: none;
         color: var(--color_primary);
         border-bottom: none;
@@ -1056,7 +1056,7 @@ footer p {
     }
   
     /*Link para minhas pages github*/
-    .acesse {
+    .site {
         font-family: var(--font_primary);
         margin-left: 1rem;
         margin-top: 1rem;
@@ -1069,7 +1069,7 @@ footer p {
        
     }
 
-    .acesse:hover {
+    .site:hover {
         transform: none;
         color: var(--color_primary);
         border-bottom: none;
