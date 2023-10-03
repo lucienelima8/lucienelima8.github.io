@@ -647,6 +647,36 @@ footer p {
 
 }
 
+     /*RESPONSIVIDADE*/
+
+@media screen and (max-width: 1115px) {
+
+    /*PROJETOS*/
+    /*Imagem dos projetos*/
+    .imagem_projetos {
+        width: 450px;
+        height: 250px;  
+        /*justify-content: center;*/
+        margin: auto;
+        /*margin-left: auto;*/
+        /*margin-left: 1rem;*/
+        margin-bottom: .1rem;
+        border-radius: 20px;
+        box-shadow: 3px 3px 3px 3px var(--color_primary);
+        /*box-shadow: 3px 3px 3px 3px rgba(27, 13, 224, 0.774); */
+        /*margin-bottom: 1rem;*/
+        float: none;
+  
+          
+    }
+  
+    .imagem_projetos:hover {
+        transform: none; 
+        transform: none;
+
+    }
+
+}
 
 
      /*RESPONSIVIDADE TABLET*/
