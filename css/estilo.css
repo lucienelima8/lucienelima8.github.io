@@ -211,8 +211,17 @@ p{
     margin-left: 1rem;
     font-size: 2rem;
     /*font-size: 1.5rem;*/
-    color: var(--color_primary);
+    /*color: var(--color_primary);*/
+    color: white;
     
+}
+
+/*Destaque no meu nome*/
+span {
+    color: var(--color_primary);
+    font-family: var(--font_primary);
+    font-size: 2rem;
+    font-weight: bolder;
 
 }
 
@@ -222,6 +231,7 @@ p{
     font-size: 1.5rem;
     color: white;
     opacity: .7;
+
 }
 
 /*Parágrafps sobre a autora*/
@@ -723,7 +733,18 @@ footer p {
         margin-left: .1rem;
         text-align: center;
         font-size: 1.5rem;
+        color: white;
     
+    }
+
+    /*Destaque no meu nome*/
+    span {
+        color: var(--color_primary);
+        font-family: var(--font_primary);
+        font-size: 2rem;
+        font-weight: bolder;
+        white-space: nowrap; /*pra evitar quebra de linha: nome e sobrenome na mesma linha*/
+
     }
 
     
@@ -991,6 +1012,16 @@ footer p {
         margin-left: .1rem;
         text-align: center;
         font-size: 1.5rem;
+        color: white;
+        
+    }
+
+    /*Destaque no meu nome*/
+    span {
+        color: var(--color_primary);
+        font-family: var(--font_primary);
+        font-size: 2rem;
+        font-weight: bolder;
         
     }
 
