@@ -1,7 +1,7 @@
 # lucienelima8.github.io
 Portfólio Luciene Lima
 
-<a href="lucienelima8.github.io/" target="_blank">Meu Portfólio</a> 
+<a href="https://lucienelima8.github.io/" target="_blank">Meu Portfólio</a> 
 
 
 <br>
