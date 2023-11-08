@@ -204,6 +204,7 @@ p{
     /*border-radius: 20px solid blue;*/;
     box-shadow: 2px 2px 2px 2px var(--color_primary)
     /*box-shadow: 2px 2px 2px 2px rgba(27, 13, 224, 0.774);*/
+    
 }
 
 /*Meu nome*/
@@ -301,6 +302,9 @@ span {
 .fa-brands:hover {
     color: var(--color_primary);
     /*color: blue;*/
+    transition: transform 0.5s; /*duração do transform*/
+    transform: rotateY(360deg); /*girar no eixo Y*/
+
 
 }
 
@@ -778,6 +782,8 @@ footer p {
 
     .fa-brands:hover {
         color: none;
+        transition: none;
+        transform: none;
 
     }
 
@@ -1056,6 +1062,8 @@ footer p {
     
     .fa-brands:hover {
         color: none;
+        transition: none;
+        transform: none;
     
     }
 
