@@ -661,6 +661,20 @@ footer p {
 
 }
 
+footer a {
+    font-size: .8rem;
+    color: beige;
+    margin-top: 0;
+    line-height: 1px;
+    /*text-decoration: underline var(--color_primary);*/
+    text-decoration: overline var(--color_primary);
+    color: var(--color_primary);
+
+
+}
+
+
+
      /*RESPONSIVIDADE*/
 
 @media screen and (max-width: 1115px) {
