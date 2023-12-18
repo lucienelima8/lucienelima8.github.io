@@ -252,10 +252,19 @@ span {
     
 }
 
-/*Botão da home chamando pra ver meus projetos*/
-.btn_chamando_projetos {
+.meus_contatos {
+    color: var(--color_primary);
+    /*color: blue;*/
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: 1.3rem;
+
+
+}
+
+.btn_chamando_curriculo {
     color: black;
-    background-color: var(--color_primary);
+    background-color: #ccc;
     /*background-color: rgb(170, 221, 241);*/
     font-size:  .9rem;
     border: 1px solid #ccc;
@@ -272,20 +281,9 @@ span {
 
 }
 
-.btn_chamando_projetos:hover {
+.btn_chamando_curriculo:hover {
     transform: scale(1.1);
-    background-color: color-mix(in srgb, red, white);
-}
-
-
-.meus_contatos {
-    color: var(--color_primary);
-    /*color: blue;*/
-    font-weight: bold;
-    font-size: 1.1rem;
-    margin-top: 1.3rem;
-
-
+    background-color: var(--color_primary);
 }
 
 /*Configurando os ícones do  linkedin e github, seção autora*/
@@ -322,6 +320,31 @@ span {
 
 } 
 
+/*Botão da home chamando pra ver meus projetos*/
+.btn_chamando_projetos {
+    color: black;
+    background-color: var(--color_primary);
+    /*background-color: rgb(170, 221, 241);*/
+    font-size:  .9rem;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 0.40em 1em;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    /*opacity: .5;*/
+    align-items: center;
+    font-weight: bold;
+
+
+}
+
+.btn_chamando_projetos:hover {
+    transform: scale(1.1);
+    background-color: color-mix(in srgb, red, white);
+}
+
 
      /*MEUS PROJETOS*/
 
@@ -343,14 +366,12 @@ span {
     display: block;
     flex-wrap: wrap;
     justify-content: center;
-
-
-
+   
 }
+
 
  /*foto e parágrafos*/
 .article_projetos { 
-   
     /*margin-left: 1rem;*/
     /*border: 2px solid blue;*/
     border-radius: 5px;
@@ -370,12 +391,14 @@ h3 {
     margin-top: 6rem;
     margin-bottom: 2rem;
     text-align: center;
+    justify-content: center;
 
 }
 
 h3:hover {
     transform: scale(1.1);
     color: color-mix(in srgb, red, white);
+
 }
 
 
@@ -391,6 +414,7 @@ h3:hover {
     /*box-shadow: 3px 3px 3px 3px rgba(27, 13, 224, 0.774); /* pra dar uma pequena sombra ao redor*/
     float: left;
     margin-left: 6rem;
+    /*margin-left: 10rem;*/
     margin-bottom: 2rem;
 
 }
@@ -775,16 +799,22 @@ footer a {
         
     }
 
-    .btn_chamando_projetos:hover {
-        transform: none;
-        background-color: var(--color_primary);
-    }
 
     .meus_contatos {
         color: var(--color_primary);
         font-weight: bold;
         margin-top: 3rem;
         
+    }
+
+    /*Botão pro meu currículo*/
+    .btn_chamando_curriculo {
+        background-color: var(--color_primary);
+    }
+    
+    .btn_chamando_curriculo:hover {
+        transform: none;
+        background-color: none;
     }
 
    /*Configurando os ícones do  linkedin e github, seção autora*/
@@ -801,6 +831,13 @@ footer a {
 
     }
 
+    .btn_chamando_projetos:hover {
+        transform: none;
+        background-color: var(--color_primary);
+    }
+
+
+    
           /*PROJETOS*/
 
     /*Nome de cada trabalho da page projeto*/
@@ -1055,11 +1092,6 @@ footer a {
             
     }
 
-    .btn_chamando_projetos:hover {
-        transform: none;
-        background-color: var(--color_primary);
-    }
-
     .meus_contatos {
         color: var(--color_primary);
         font-weight: bold;
@@ -1079,6 +1111,26 @@ footer a {
         transition: none;
         transform: none;
     
+    }
+
+    .btn_chamando_curriculo {
+        background-color: var(--color_primary);
+    }
+
+    .btn_chamando_curriculo {
+        background-color: var(--color_primary);
+    }
+
+    .btn_chamando_curriculo {
+        transform: none;
+        background-color: none;
+
+    }
+       
+
+    .btn_chamando_projetos:hover {
+        transform: none;
+        background-color: none;
     }
 
          /*MEUS PROJETOS*/
