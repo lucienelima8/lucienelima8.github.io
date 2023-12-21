@@ -179,12 +179,16 @@ p{
     margin-left: 2rem;
     margin-bottom: 2rem;
 
+
 }
 
 .imagem_autora:hover {
     transform: scale(1.1); 
-    /*border-radius: 20px solid blue;*/;
-    box-shadow: 2px 2px 2px 2px var(--color_primary)
+    border: 1px solid var(--color_primary);
+    border-radius: 2px solid rgb(0, 183, 255);
+    /*box-shadow: 2px 2px 2px 2px var(--color_primary);*/
+    filter: drop-shadow(0 0 24px rgb(0, 183, 255));
+
     /*box-shadow: 2px 2px 2px 2px rgba(27, 13, 224, 0.774);*/
 }
 
@@ -422,6 +426,8 @@ h3:hover {
 .imagem_projetos:hover {
     transform: scale(1.1); /*zoom na foto ao passar o mouse*/
     transform: translate(60px); /*imagem se movimentando no eixo X*/
+    filter: drop-shadow(0 0 24px rgb(0, 183, 255));
+
 
 
 }
@@ -718,6 +724,8 @@ footer a {
         /*box-shadow: 3px 3px 3px 3px rgba(27, 13, 224, 0.774); */
         /*margin-bottom: 1rem;*/
         float: none;
+        filter: drop-shadow(0 0 24px rgb(0, 183, 255));
+
   
           
     }
@@ -725,6 +733,8 @@ footer a {
     .imagem_projetos:hover {
         transform: none; 
         transform: none;
+        /*filter: drop-shadow(0 0 24px rgb(0, 183, 255));*/
+
 
     }
 
@@ -747,6 +757,8 @@ footer a {
         width: 300px;
         height: 300px;
         border: 2px solid var(--color_primary);
+        filter: drop-shadow(0 0 24px rgb(0, 183, 255));
+
         /*border: 2px solid rgba(27, 13, 224, 0.774);*/
         border-radius: 250px;
         text-align: center;
@@ -759,7 +771,7 @@ footer a {
 
     .imagem_autora:hover {
         transform: none; 
-        box-shadow: none;
+        /*box-shadow: none;*/
 
 
     }
@@ -871,6 +883,8 @@ footer a {
         /*box-shadow: 3px 3px 3px 3px rgba(27, 13, 224, 0.774); */
         /*margin-bottom: 1rem;*/
         float: none;
+        filter: drop-shadow(0 0 24px rgb(0, 183, 255));
+
   
           
     }
@@ -878,6 +892,8 @@ footer a {
     .imagem_projetos:hover {
         transform: none; 
         transform: none;
+        /*filter: drop-shadow(0 0 24px rgb(0, 183, 255));*/
+
 
     }
 
@@ -1043,6 +1059,7 @@ footer a {
         width: 250px;
         height: 250px;
         border: 2px solid var(--color_primary);
+        filter: drop-shadow(0 0 24px rgb(0, 183, 255));
         /*border: 2px solid rgba(27, 13, 224, 0.774);*/
         border-radius: 250px;
         text-align: center;
@@ -1053,7 +1070,7 @@ footer a {
     }
     .imagem_autora:hover {
         transform: none; 
-        box-shadow: none;
+        /*box-shadow: none;*/
 
     
     }
@@ -1061,7 +1078,7 @@ footer a {
     .imagem_monografia:hover {
         transform: none; 
         /*border-radius: 20px solid blue;*/;
-        box-shadow: 2px 2px 2px 2px var(--color_primary)
+        box-shadow: 2px 2px 2px 2px var(--color_primary);
         /*box-shadow: 2px 2px 2px 2px rgba(27, 13, 224, 0.774);*/
     }
 
@@ -1187,14 +1204,16 @@ footer a {
       /*box-shadow: 3px 3px 3px 3px rgba(27, 13, 224, 0.774); */
       /*margin-bottom: 1rem;*/
       float: none;
+      filter: drop-shadow(0 0 24px rgb(0, 183, 255));
 
-      
+     
 
     }
 
     .imagem_projetos:hover {
       transform: none; 
       transform: none;
+
 
     }
 
