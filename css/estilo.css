@@ -610,6 +610,8 @@ h3:hover {
 .form input:focus {
     outline: 2px solid var(--color_primary);
     /*outline: 2px solid rgb(0, 68, 255); /*form input:focus = quando clicar no campo ficar amarelo*/
+    filter: drop-shadow(0 0 24px rgb(0, 183, 255));
+
 
 }
 
@@ -630,6 +632,8 @@ h3:hover {
 .form textarea:focus {
     outline: 2px solid var(--color_primary);
     /*outline: 2px solid rgb(0, 68, 255);*/
+    filter: drop-shadow(0 0 24px rgb(0, 183, 255));
+
 
 
 }
@@ -653,6 +657,9 @@ h3:hover {
     /*background-color: rgba(27, 13, 224, 0.774);*/
     /*background-color: rgba(0, 68, 255);*/
     color:black;
+    filter: drop-shadow(0 0 24px rgb(0, 183, 255));
+
+
 
 }
 
@@ -965,6 +972,7 @@ footer a {
         border-bottom: 1px solid var(--color_primary);
         border-radius: 15px;
         box-shadow: inset 8px 3px 3px var(--color_primary);
+        
         max-width: auto;
         background-color: rgba(0, 0, 0, 0);
         margin-top: 0;
