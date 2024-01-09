@@ -3,6 +3,11 @@ Portfólio Luciene Lima
 
 <a href="https://lucienelima8.github.io/" target="_blank">Meu Portfólio</a> 
 
+![port](https://github.com/lucienelima8/lucienelima8.github.io/assets/137119392/51560e52-c132-4ca6-be64-c5c10962d9b9)
+
+![projetos](https://github.com/lucienelima8/lucienelima8.github.io/assets/137119392/17d3ac81-0119-47ee-9160-371260ca045e)
+
+
 
 <br>
 <hr>
