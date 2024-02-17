@@ -486,7 +486,8 @@ h3:hover {
     text-decoration: none;
     padding: 0.40em 1em;
     text-align: center;
-    margin-bottom: 2rem;
+    /*margin-bottom: 2rem;*/
+    margin-bottom: .5rem;
     margin-top: .5rem;
     /*opacity: .5;*/
     align-items: center;
@@ -936,7 +937,7 @@ footer a {
         text-decoration: none;
         padding: 0.40em 1em;
         text-align: center;
-        margin-bottom: 2rem;
+        /*margin-bottom: 2rem;*/
         margin-top: .1rem;
         /*opacity: .5;*/
         align-items: center;
@@ -1265,7 +1266,7 @@ footer a {
         text-decoration: none;
         padding: 0.40em 1em;
         text-align: center;
-        margin-bottom: 2rem;
+        /*margin-bottom: 2rem;*/
         margin-top: .1rem;
         /*opacity: .5;*/
         align-items: center;
