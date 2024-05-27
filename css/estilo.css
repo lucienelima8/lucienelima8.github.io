@@ -45,6 +45,15 @@ body {
 
 }
 
+/*Menu Hamburguer*/
+#hamburguer {
+    color: var(--color_primary);
+    font-size: 2rem;
+    text-align: right;
+    /*display none pra quando tiver em telas maiores não aparecer o ícone do menu hamburguer*/
+    display: none;
+}
+
 .div_menu {
     /*position: fixed;*/
     height: 80px;

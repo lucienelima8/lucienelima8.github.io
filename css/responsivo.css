@@ -36,7 +36,33 @@
 
      /*RESPONSIVIDADE TABLET*/
 
-@media screen and (max-width: 820px) {
+    @media screen and (max-width: 845px) {
+
+
+    /*Menu Hamburguer*/
+    #hamburguer {
+        color: var(--color_primary);
+        font-size: 2rem;
+        text-align: left;
+        display: block;
+        margin: .1rem;
+        cursor: pointer;
+        padding: .1rem;
+
+        
+
+    }
+
+    #hamburguer:hover {
+        color: var(--color_primary);
+      
+    }
+
+    /*Menu estendido não aparecer*/
+    nav {
+        display: none;
+      
+    }    
    
          /*AUTORA*/
 
@@ -329,6 +355,32 @@
         background-color: none;
            
     }
+
+    /*Menu Hamburguer*/
+    #hamburguer {
+        color: var(--color_primary);
+        font-size: 2rem;
+        text-align: left;
+        display: block;
+        margin: .1rem;
+        cursor: pointer;
+        padding: .1rem;
+
+        
+
+    }
+
+    #hamburguer:hover {
+        color: var(--color_primary);
+      
+    }
+
+    /*Menu estendido não aparecer*/
+    nav {
+        display: none;
+      
+    }
+
 
      /*Título de cada page (autora, currículo...)*/
     h2 {

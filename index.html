@@ -13,11 +13,17 @@
     <!-- ícone na aba -->
     <link rel="shortcut icon" href="imagens/tag.ico" type="image/x-icon">
 
+    <!-- Link do google pra usarmos o Ícone menu hamburguer -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <link rel="stylesheet" href="css/normalize.css">
 
     <link rel="stylesheet" href="css/estilo.css">
 
     <link rel="stylesheet" href="css/responsivo.css">
+
+    <!-- Linkar arquivo js do Menu Hamburguer -->
+    <script src="index_menu.js"></script>
 
      <!-- Linkar os ícones do linkedin e github: CDN-->
      <script src="https://kit.fontawesome.com/7d79481767.js" crossorigin="anonymous"></script>
@@ -32,8 +38,11 @@
   
   <!-- Section com a nav e header -->
   <section class="gradiente">
+
+    <!-- Menu Hamburguer -->
+    <i id="hamburguer" class="material-icons" onclick="menuShow()">menu</i>
    
-   <nav>
+   <nav id="itens_hamburguer">
     
     <div class="div_menu">
       
