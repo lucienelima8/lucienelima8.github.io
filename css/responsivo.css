@@ -2,7 +2,7 @@
 
    @media screen and (max-width: 1115px) {
 
-    /*PROJETOS*/
+      /*PROJETOS*/
     /*Imagem dos projetos*/
     .imagem_projetos {
         width: 450px;
@@ -63,7 +63,8 @@
         display: none;
       
     }    
-   
+  
+
          /*AUTORA*/
 
     .div_autora {
@@ -311,7 +312,7 @@
 
      /*RESPONSIVIDADE CELULAR*/
 
-@media screen and (max-width: 800px) {
+    @media screen and (max-width: 800px) {
     
     .body {
         /*width: 100%;*/
@@ -381,7 +382,7 @@
       
     }
 
-
+  
      /*Título de cada page (autora, currículo...)*/
     h2 {
         font-family: var(--font_primary);
